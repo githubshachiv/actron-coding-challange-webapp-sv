@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLargestNumberAPI", "FindLargestNumberAPI\FindLargestNumberAPI.csproj", "{9C7B3987-EA22-48A7-BE34-29E443ACA4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestNumberTest", "LargestNumberTest\LargestNumberTest.csproj", "{5E59F01C-A552-4FB9-B5CD-AA60047BB6B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C7B3987-EA22-48A7-BE34-29E443ACA4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7B3987-EA22-48A7-BE34-29E443ACA4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7B3987-EA22-48A7-BE34-29E443ACA4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7B3987-EA22-48A7-BE34-29E443ACA4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E59F01C-A552-4FB9-B5CD-AA60047BB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E59F01C-A552-4FB9-B5CD-AA60047BB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E59F01C-A552-4FB9-B5CD-AA60047BB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E59F01C-A552-4FB9-B5CD-AA60047BB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83DC471F-D147-434B-BC69-F3E5D93F90EB}
+	EndGlobalSection
+EndGlobal
