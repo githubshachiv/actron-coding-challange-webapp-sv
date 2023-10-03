@@ -1,0 +1,52 @@
+openapi: 3.0.3
+info:
+  title: Swagger Actron Coding Challenge - OpenAPI 3.0
+  description: |-
+    This is part of Actron Coding Challenge
+    
+    Implement the following REST API using C# .NET/ASP.NET and deploy as a website or Azure function
+      - Should be accessible publicly for our testing
+      - Upload the source code to a public repository and share the link
+      - No authentication required
+    
+  version: 0.0.1
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+  - url: https://<baseurl>/api/v0
+tags:
+  - name: Actron Coding Challenge
+    description: Just one API to implement
+paths:
+  /formLargestInt:
+    post:
+      tags:
+        - Actron Coding Challenge
+      summary: Form the largest possible integer
+      requestBody:
+        description: Given an array of integers, the algorithm arranges them in order to form the largest possible integer. Assume only positive integers.
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                input:
+                  type: array
+                  items:
+                    type: integer
+              example: {input: [10,223,78,90,99]}                
+        required: true
+      responses:
+        '200':
+          description: Largest value
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  output:
+                    type: string
+                example: {output: "99907822310"}
+        '400':
+          description: Invalid input array [non positive integers or empty array]
