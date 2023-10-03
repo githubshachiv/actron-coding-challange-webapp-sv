@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FindLargestNumberAPI.Controllers
 {
     [ApiController]
-    [Route("api/formlargestint")]
+    [Route("api/v1/formlargestint")]
     public class FormLargestIntController: ControllerBase 
     {
         [HttpPost]
